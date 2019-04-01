@@ -15,7 +15,7 @@ rm(list = ls())
 
 dashboardPage(
   skin = "black",
-  dashboardHeader(title = tags$h1(datalegreya("highcharter", type = "gradient")), disable = FALSE),
+  dashboardHeader(title = tags$h1(datalegreyar::fig("highcharter", type = "gradient")), disable = FALSE),
   dashboardSidebar(
     sidebarMenu(
       menuItem("Examples", tabName = "examples", icon = icon("bar-chart")),
